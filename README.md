@@ -1,6 +1,6 @@
-# inflection
+# inflection Plus
 
-A wrapper around [inflection](https://github.com/dreamerslab/node.inflection) to support array collections. Inflection is A port of inflection-js to node.js module.
+A wrapper around [inflection](https://github.com/dreamerslab/node.inflection) to support collections. Inflection is A port of inflection-js to node.js module.
 
 ## Description
 [inflection-js](http://code.google.com/p/inflection-js/) is a port of the functionality from Ruby on Rails' Active Support Inflection classes into Javascript. `inflection` is a port of `inflection-js` to node.js npm package. Instead of [extending JavaScript native](http://wonko.com/post/extending-javascript-natives) String object like `inflection-js` does, `inflection` separate the methods to a independent package to avoid unexpected behaviors.
@@ -57,7 +57,7 @@ Install inflection plus through npm
 
 > Require the module before using
 
-	var inflection = require( 'inflection-plus' );
+		var inflection = require('inflection-plus');
 
 
 
