@@ -17,40 +17,27 @@ Install inflection plus through npm
 
 
 
-## String API
+## API
 
-- inflection.pluralize( str, { override: str } );
-- inflection.singularize( str, { override: srt } );
-- inflection.camelize( str, { override: bool } );
-- inflection.underscore( str, { override: bool } );
-- inflection.humanize( str, { override: bool } );
-- inflection.capitalize( str );
-- inflection.dasherize( str );
-- inflection.titleize( str );
-- inflection.demodulize( str );
-- inflection.tableize( str );
-- inflection.classify( str );
-- inflection.foreign_key( str, { override: bool } );
-- inflection.ordinalize( str );
-- inflection.transform( str, {jobs: arr} );
+Data can be either string or array.
+
+- inflection.pluralize( data, { override: str } );
+- inflection.singularize( data, { override: srt } );
+- inflection.camelize( data, { override: bool } );
+- inflection.underscore( data, { override: bool } );
+- inflection.humanize( data, { override: bool } );
+- inflection.capitalize( data );
+- inflection.dasherize( data );
+- inflection.titleize( data );
+- inflection.demodulize( data );
+- inflection.tableize( data );
+- inflection.classify( data );
+- inflection.foreign_key( data, { override: bool } );
+- inflection.ordinalize( data );
+- inflection.transform( data, {jobs: arr} );
 
 
-## Array API
 
-- inflection.pluralize( str, { override: str } );
-- inflection.singularize( str, { override: srt } );
-- inflection.camelize( str, { override: bool } );
-- inflection.underscore( str, { override: bool } );
-- inflection.humanize( str, { override: bool } );
-- inflection.capitalize( str );
-- inflection.dasherize( str );
-- inflection.titleize( str );
-- inflection.demodulize( str );
-- inflection.tableize( str );
-- inflection.classify( str );
-- inflection.foreign_key( str, { override: bool } );
-- inflection.ordinalize( str );
-- inflection.transform( str, {jobs: arr} );
 
 
 ## Usage
